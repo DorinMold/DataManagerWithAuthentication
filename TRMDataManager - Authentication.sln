@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMDataManager - Authentication", "TRMDataManager - Authentication\TRMDataManager - Authentication.csproj", "{DB497E60-D52A-40EE-B5C1-D9638CEAF11B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB497E60-D52A-40EE-B5C1-D9638CEAF11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB497E60-D52A-40EE-B5C1-D9638CEAF11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB497E60-D52A-40EE-B5C1-D9638CEAF11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB497E60-D52A-40EE-B5C1-D9638CEAF11B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFE85882-4542-4329-9C0B-41EEA7782058}
+	EndGlobalSection
+EndGlobal
