@@ -4,6 +4,7 @@ using TRMDataManager___Authentication;
 using Swashbuckle.Application;
 using TRMDataManager___Authentication.App_Start;
 
+//IF WE COMMENT OUT SWAGGER WON'T WORK
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
 namespace TRMDataManager___Authentication
@@ -18,6 +19,7 @@ namespace TRMDataManager___Authentication
                 .EnableSwagger(c =>
                     {
                         c.DocumentFilter<AuthTokenOperation>();
+                        c.OperationFilter<AuthorizationOperationFilter>();
                         // By default, the service root url is inferred from the request used to access the docs.
                         // However, there may be situations (e.g. proxy and load-balanced environments) where this does not
                         // resolve correctly. You can workaround this by providing your own code to determine the root URL.
