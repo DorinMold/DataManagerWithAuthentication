@@ -65,4 +65,14 @@
   <ItemGroup>
     <None Include="PublishLocations\DataManagerData.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="DBOwner\Tables\User.sql" />
+    <Build Include="DBOwner\Tables\Sale.sql" />
+    <Build Include="DBOwner\Tables\SaleDetail.sql" />
+    <Build Include="DBOwner\Tables\Product.sql" />
+    <Build Include="DBOwner\Tables\Inventory.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DataManagerData.refactorlog" />
+  </ItemGroup>
 </Project>
